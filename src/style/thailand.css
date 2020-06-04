@@ -1,0 +1,11 @@
+.thailand-headlines {
+    background-image: url('../pics/Thailand/phi-phi.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    margin-bottom: 40px;
+}
+
+.cities {
+    margin-left: 30%;
+}

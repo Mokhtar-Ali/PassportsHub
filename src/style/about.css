@@ -1,0 +1,23 @@
+.about {
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-right: 200px;
+}
+
+.about-h2 {
+    margin: 5px;
+}
+
+.bio-myimg {
+    display: flex;
+    padding: 10px;
+}
+
+.bio {
+    flex: 2;
+    margin-right: 30px;
+}
+
+.myimg {
+    height: 300px;
+}

@@ -1,0 +1,11 @@
+.egypt-headlines {
+    background-image: url('../pics/Egypt/Pyramids.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    margin-bottom: 40px;
+}
+
+.cities {
+    margin-left: 30%;
+}

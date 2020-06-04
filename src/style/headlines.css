@@ -1,0 +1,40 @@
+.headlines {
+    background-image: url('../pics/headlines.jpg');
+    background-size: cover;
+    background-position: 100px;
+    height: 350px;
+    
+
+}
+
+/* .lets-go-places {
+    text-align: left;
+    margin-left: 240px;
+    font-family: fantasy;
+    opacity: 80%;
+}
+
+.travel-blog {
+    font-size: 3em;
+    font-family: fantasy;
+    opacity: 80%;
+}
+.bottom-blogging-countries{
+    display: flex;
+
+}
+
+.bloggin-about {
+    text-align: left;
+    margin-left: 240px;
+    font-family: fantasy;
+    margin-top: 20px;
+    opacity: 80%;
+}
+
+.countries-side {
+    margin-left: 40px;
+    font-family: fantasy;
+    opacity: 80%;
+}
+ */
