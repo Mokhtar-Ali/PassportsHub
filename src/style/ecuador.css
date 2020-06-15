@@ -1,0 +1,11 @@
+.ecuador-headlines {
+    background-image: url('../pics/Ecuador/quito-city.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-bottom: 40px;
+}
+
+.cities {
+    margin-left: 30%;
+}

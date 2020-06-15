@@ -25,7 +25,7 @@ import '../style/blog.css'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 600,
+    maxWidth: 800,
     margin: '20px'
   },
   media: {
@@ -83,10 +83,11 @@ export default function Phuket() {
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
+        <a href='https://www.youtube.com/channel/UCJp0XZMq8jPdCcrfdTkLAKw' target='_blank' style={{color:'red'}}> <ion-icon name="logo-youtube"/></a>
+          {/* <FavoriteIcon /> */}
         </IconButton>
         <IconButton aria-label="share">
-          <ShareIcon />
+          {/* <ShareIcon /> */}
         </IconButton>
         <IconButton
           className={clsx(classes.expand, {

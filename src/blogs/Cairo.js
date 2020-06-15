@@ -19,13 +19,14 @@ import PyramidsPic from '../pics/pyramids.jpg'
 import CairoTower from '../pics/Egypt/cairo-tower.jpg'
 import Khan from '../pics/Egypt/khan.jpg'
 import Pyramids from '../pics/Egypt/Pyramids.jpg'
+import {Link} from 'react-router-dom'
 import '../style/blog.css'
-
+// import { IoLogoYoutube } from 'react-icons';
 // import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 600,
+    maxWidth: 800,
     margin: '20px'
   },
   media: {
@@ -74,7 +75,7 @@ export default function Cairo() {
         className={classes.media}
         image={Pyramids}
         title="image"
-      /> 
+      />
 
       <CardContent>
         <Typography className='text' variant="body2" color="textSecondary" component="p">
@@ -83,10 +84,13 @@ export default function Cairo() {
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
+          {/* <FavoriteIcon /> */}
+          {/* <IoLogoYoutube /> */}
+          <a href='https://www.youtube.com/watch?v=0NjnKn63r8w' target='_blank' style={{color:'red'}}> <ion-icon name="logo-youtube"/></a>
+
         </IconButton>
         <IconButton aria-label="share">
-          <ShareIcon />
+          {/* <ShareIcon /> */}
         </IconButton>
         <IconButton
           className={clsx(classes.expand, {
@@ -112,12 +116,12 @@ export default function Cairo() {
             I recommend visiting Egypt between October and May.
             <br />
             <hr />
-            
+
           </Typography>
           <Typography paragraph className='text' >
-            <h5 style={{textAlign:'center'}}>3 Days Schedule in Cairo</h5>
+            <h5 style={{ textAlign: 'center' }}>3 Days Schedule in Cairo</h5>
             <strong>Day One:</strong> Visit the Pyramids and the Sphinx in the morning, You can go inside The Great Pyramid as well. Ride a camel, its an amazing experience.
-            Before Sunset You can go check the Nile River, The 2nd largest river in the world, Take a boat or "Faloka" they call it, and enjoy the view of the Sunset and downtown Cairo with a beautiful breeze. 
+            Before Sunset You can go check the Nile River, The 2nd largest river in the world, Take a boat or "Faloka" they call it, and enjoy the view of the Sunset and downtown Cairo with a beautiful breeze.
             <hr />
             <img src={PyramidsPic} className='image-in-blog' alt='' />
             <hr />
@@ -129,7 +133,7 @@ export default function Cairo() {
             <img src={CairoTower} className='image-in-blog' alt='' />
             <hr />
             <strong>Day Three:</strong> Visit Saladin Citadel in the morning, You'll be impressed by the old decorations of the Mosques in that area and how that Citadel used to be the Fortress to defend Cairo against invadors, so many culture to learn and beautiful pictures you can take.
-            After, Head to Khan El Khalili. Where all the handmade souvenirs, silver, gold and cloths where you'll not find anywhere else in the World. 
+            After, Head to Khan El Khalili. Where all the handmade souvenirs, silver, gold and cloths where you'll not find anywhere else in the World.
             If you have more time and you like shopping, don't miss City Stars, The biggest mall in The middle East where there is a lot of brands and sales.
             <hr />
             <img src={Khan} className='image-in-blog' alt='' />
@@ -137,7 +141,7 @@ export default function Cairo() {
           </Typography>
 
           <Typography paragraph className='text'>
-            <h5 style={{textAlign:'center'}}>Tips</h5>
+            <h5 style={{ textAlign: 'center' }}>Tips</h5>
             Egypt has 4 seasons. <br />
             Use Uber for transportation.<br />
             Keep a light jacket on you all the time during spring. <br />
