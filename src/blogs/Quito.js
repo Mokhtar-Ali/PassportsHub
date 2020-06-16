@@ -20,6 +20,7 @@ import QuitoMain from '../pics/Ecuador/quito-main.jpg'
 import Center from '../pics/Ecuador/center.jpg'
 import LandScape from '../pics/Ecuador/quito-landscape.jpg'
 import City from '../pics/Ecuador/quito-city.jpg'
+import Food from '../pics/Ecuador/food.jpg'
 
 
 
@@ -113,7 +114,7 @@ export default function Quito() {
             This judgment is based on living among them in the USA.
             The plan is to stay 2 weeks in Ecuador. 1 week in Quito and another in Guayaquil.
             Around 10 pm we landed in Quito Airport, in a city that is 9350 ft above sea level. <br />
-            Quito is a ghost town on a Sunday night. 
+            Quito is a ghost town on a Sunday night.
             Our driver who is our Airbnb host, literally drove us all over town to look for a restaurant or a deli for a whole hour to eat something.
             At the end, we found one, the only 24/hour restaurant in the city.
             And it was worth it as the food was delicious. Tasted like homemade 
@@ -128,12 +129,12 @@ export default function Quito() {
           </Typography>
 
           <Typography paragraph className='text' >
-            Next day, its 10 am we head out for an Ecuadorian breakfast. Walking through the streets of Quito was pleasant as the streets are beautiful and clean while roads are full of hills so it's also a sport. <br />
-            Breakfast in Ecuador was very delicious as I spent 2 weeks eating the same thing, Humita, an Ecuadorian dish of mashed corn and cheese covered with corn Leafs.
+            Next day, its 10 am, The view from my Airbnb window was fascinating, Volcanos and mountains everywhere! we head out for an Ecuadorian breakfast. Walking through the streets of Quito was pleasant as the streets are beautiful and clean while roads are full of hills so it's also a sport. <br />
+            Breakfast in Ecuador is very delicious as I spent 2 weeks eating the same thing for breakfast 'Humita' an Ecuadorian dish of mashed corn and cheese covered with corn Leafs and baked until perfection.
             The food is very natural here they depend on corn, flower, banana, cheese, and rice in almost every meal.
-            Everyone is humble and sweet. greeting each other 'Buenos dias'. Everyone lives in peace here. 
+            Everyone is humble and sweet. greeting each other 'Buenos dias'. Everyone lives in peace. 
             People in Quito dress up nice even if they are going to the supermarket, even though a lot of them are poor. But they are hard working.
-            They are handsome and strict with traditions as they are family oriented and religious.
+            Ecuadorian in Quito are very family oriented and religious.
             
           </Typography>
           <hr />
@@ -142,22 +143,37 @@ export default function Quito() {
 
           <Typography paragraph className='text' >
             Then we head to the Middle of the Earth. One hour Uber ride, where the sun is staring at you, because of the cool Temperature you may not feel it, but becareful not to get a sun strike.
-            There is a museum that shows the process of discovering the equator and how they build the structure to represent it. 
+            There is a museum that shows the process of discovering the equator and how they build the structure to represent it. There is a cool point there where you are zero feet from North and South!!
+            Later We took the 'Teleferico' a cableway to the top of the highest mountains, which was a pleasant ride, at this point the highest mountain in Quito that we reached was 5600 meters, that's 18,372 feets above sea level.
+            From there, Oxygin level is low, but the view is breathtaking.
+            After we took the cable back down. 
           </Typography>
           <hr />
           <img src={Center} className='image-in-blog' alt='' />
           <hr />
 
+          <Typography paragraph className='text' >
+            Food in Ecuador is super delicious, and if you like seafood, you are in heaven. 
+            In the image above a bowl of 'Cevici'. Healthy, delicious and boosts your stamina to keep hiking in Ecuador.
+            One of the nights, we went to The Old downtown. 'Calle Ronda' a beautiful old street in old downtown.
+            Full of Restaurants, clubs and cafes. I had the biggest empanada there, about 2 feets wide!!!! ofcourse not by myself lol. 
+            For the rest of my week. I went to a beautiful town called Baños that is 3 hours away from Quito by bus. One of the most beautiful places I've been in my life!
+            Stay toned for the next Blog about Baños Ecuador!
+            
+          </Typography>
+          <hr />
+          <img src={Food} className='image-in-blog' alt='' />
+          <hr />
+
           <Typography paragraph className='text'>
             <h5 style={{textAlign:'center'}}>Tips</h5>
-            Egypt has 4 seasons <br />
-            Use Uber for Transportation.<br />
-            Keep a light jacket on you all the time. 
-            Don't show too much shiny things in crowded areas. <br />
-            You'll need to check the weather before going and each part. <br />
-            Egypt is very affordable But you'll need cash in some parts. <br />
-            Couchsurfing is Important Everywhere and very helpful in Egypt. <br />
-            one of the Biggest Malls in the world is called City Stars in Cairo <br />
+            Don't forget to check my<a href='https://www.youtube.com/watch?v=CGo6tnSD5Bg&t=1007s' target='_blank' style={{color:'red'}}> Youtube video </a> about Quito.<br />
+            Altitude pills is a must in Ecuador.<br />
+            Coffee in Ecuador is delicious. <br />
+            Keep a light jacket on you all the time. <br />
+            The weather is very unpredictable in Quito because of its altitude.<br />
+            Quito is very safe and clean, But like every country you will see on my blog, I wouldn't recommend wearing shinny stuff. <br />
+            Stay toned for another blog coming for the rest of my week in Quito in a beautiful town called Baños.
           </Typography>
           
         </CardContent>
