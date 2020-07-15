@@ -13,8 +13,8 @@ export default function NavBar() {
                     <ul >
                         <li ><a className='navbar-li' href='/' > Home </a></li>
                         <li ><a className='navbar-li' href='/about'> About </a></li>
-                        <li ><a className='navbar-li' href='/about' style={{'marginLeft':'100px'}}> FaceBook </a></li>
-                        <li ><a className='navbar-li' href='https://www.instagram.com/mokhtar.egypt/' target='_blank'> Instgram </a></li>
+                        {/* <li ><a className='navbar-li' href='/about' style={{'marginLeft':'100px'}}> FaceBook </a></li> */}
+                        <li ><a className='navbar-li' href='https://www.instagram.com/mokhtar.egypt/' target='_blank'> Instagram </a></li>
                         
                     </ul>
                 </div>

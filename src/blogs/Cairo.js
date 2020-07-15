@@ -23,6 +23,48 @@ import {Link} from 'react-router-dom'
 import '../style/blog.css'
 // import { IoLogoYoutube } from 'react-icons';
 // import MoreVertIcon from '@material-ui/icons/MoreVert';
+import {
+  EmailShareButton,
+  FacebookShareButton,
+  InstapaperShareButton,
+  LineShareButton,
+  LinkedinShareButton,
+  LivejournalShareButton,
+  MailruShareButton,
+  OKShareButton,
+  PinterestShareButton,
+  PocketShareButton,
+  RedditShareButton,
+  TelegramShareButton,
+  TumblrShareButton,
+  TwitterShareButton,
+  ViberShareButton,
+  VKShareButton,
+  WhatsappShareButton,
+  WorkplaceShareButton
+} from "react-share";
+import {
+  EmailIcon,
+  FacebookIcon,
+  FacebookMessengerIcon,
+  InstapaperIcon,
+  LineIcon,
+  LinkedinIcon,
+  LivejournalIcon,
+  MailruIcon,
+  OKIcon,
+  PinterestIcon,
+  PocketIcon,
+  RedditIcon,
+  TelegramIcon,
+  TumblrIcon,
+  TwitterIcon,
+  ViberIcon,
+  VKIcon,
+  WeiboIcon,
+  WhatsappIcon,
+  WorkplaceIcon
+} from "react-share";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -61,7 +103,7 @@ export default function Cairo() {
     <Card className={classes.root}>
       <CardHeader
         avatar={
-          <Avatar aria-label="recipe" src={Me} className={classes.avatar} />
+          <Avatar aria-label="image" src={Me} className={classes.avatar} />
         }
         action={
           <IconButton aria-label="settings">
@@ -69,7 +111,7 @@ export default function Cairo() {
           </IconButton>
         }
         title={<h4>Cairo</h4>}
-        subheader="September 14, 2016"
+        subheader="August, 2015"
       />
       <CardMedia
         className={classes.media}
@@ -91,6 +133,8 @@ export default function Cairo() {
         </IconButton>
         <IconButton aria-label="share">
           {/* <ShareIcon /> */}
+          {/* <FacebookShareButton /> */}
+          {/* <FacebookIcon size={30} round={true}/> */}
         </IconButton>
         <IconButton
           className={clsx(classes.expand, {

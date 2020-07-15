@@ -60,7 +60,7 @@ export default function Phuket() {
     <Card className={classes.root}>
       <CardHeader
         avatar={
-          <Avatar aria-label="recipe" src={Me} className={classes.avatar} />
+          <Avatar aria-label="image" src={Me} className={classes.avatar} />
         }
         action={
           <IconButton aria-label="settings">
