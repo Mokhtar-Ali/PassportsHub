@@ -30,7 +30,7 @@ import '../style/blog.css'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 800,
+    maxWidth: '100vh',
     margin: '20px'
   },
   media: {

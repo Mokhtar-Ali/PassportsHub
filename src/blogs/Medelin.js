@@ -18,11 +18,53 @@ import Me from '../pics/painted.png'
 import PyramidsPic from '../pics/pyramids.jpg'
 import CairoTower from '../pics/Egypt/cairo-tower.jpg'
 import Khan from '../pics/Egypt/khan.jpg'
-import Pyramids from '../pics/Egypt/Pyramids.jpg'
+import Medelin1 from '../pics/Colombia/Medelin1.jpg'
 import {Link} from 'react-router-dom'
 import '../style/blog.css'
 // import { IoLogoYoutube } from 'react-icons';
 // import MoreVertIcon from '@material-ui/icons/MoreVert';
+import {
+  EmailShareButton,
+  FacebookShareButton,
+  InstapaperShareButton,
+  LineShareButton,
+  LinkedinShareButton,
+  LivejournalShareButton,
+  MailruShareButton,
+  OKShareButton,
+  PinterestShareButton,
+  PocketShareButton,
+  RedditShareButton,
+  TelegramShareButton,
+  TumblrShareButton,
+  TwitterShareButton,
+  ViberShareButton,
+  VKShareButton,
+  WhatsappShareButton,
+  WorkplaceShareButton
+} from "react-share";
+import {
+  EmailIcon,
+  FacebookIcon,
+  FacebookMessengerIcon,
+  InstapaperIcon,
+  LineIcon,
+  LinkedinIcon,
+  LivejournalIcon,
+  MailruIcon,
+  OKIcon,
+  PinterestIcon,
+  PocketIcon,
+  RedditIcon,
+  TelegramIcon,
+  TumblrIcon,
+  TwitterIcon,
+  ViberIcon,
+  VKIcon,
+  WeiboIcon,
+  WhatsappIcon, 
+  WorkplaceIcon
+} from "react-share";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -49,7 +91,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Cairo() {
+export default function Medellin() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -65,28 +107,27 @@ export default function Cairo() {
         }
         action={
           <IconButton aria-label="settings">
-            <a href='/egypt'>Egypt</a>
+            <a href='/colombia'>Colombia</a>
           </IconButton>
         }
-        title={<h4>Cairo</h4>}
-        subheader="August, 2015"
+        title={<h4>Medellín</h4>}
+        subheader="July, 2019"
       />
       <CardMedia
         className={classes.media}
-        image={Pyramids}
+        image={Medelin1}
         title="image"
       />
 
       <CardContent>
         <Typography className='text' variant="body2" color="textSecondary" component="p">
-        Whenever you hear Egypt, Your mind will always imagine three Pyramids, The Sphinx, Camels, and Horses. This picture isn't wrong, I'll be happy to write about it in this article that will make you more eager to visit Egypt. And I will write about everything you'll need to know before visiting The land of the Pharaohs.
+        Medelin, The spring all year city. The most beautiful city in South America in my opinion. Medelin is surrounded by beautiful green mountains 
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
-          {/* <FavoriteIcon /> */}
-          {/* <IoLogoYoutube /> */}
-          <a href='https://www.youtube.com/watch?v=0NjnKn63r8w' target='_blank' style={{color:'red'}}> <ion-icon name="logo-youtube"/></a>
+         
+          {/* <a href='https://www.youtube.com/watch?v=0NjnKn63r8w' target='_blank' style={{color:'red'}}> <ion-icon name="logo-youtube"/></a> */}
 
         </IconButton>
         <IconButton aria-label="share">
@@ -109,27 +150,34 @@ export default function Cairo() {
         <CardContent>
           <h5>Blog</h5>
           <Typography paragraph className='text' >
-          Cairo, "Qahera" how you pronounce it in Arabic, means the conqueror from ancient history.
-          As an Egyptian citizen, I grew up in Cairo, the capital of Egypt. Only 10 miles away from the Pyramids. And yes it's always fascinating to see the Pyramids every day.
+            Medellín, "Qahera" how you pronounce it in Arabic, means the Conqueror from the Ancient History. <br />
+            As an Egyptian Citizen, I grew up in Medellín, Capital of Egypt. Only 10 miles away from the Pyramids. And yes it's always fascinating to see the Pyramids everyday.
           </Typography>
           <Typography paragraph className='text' >
-          First getting to Egypt, The best time to visit is when the climate is nice, Egypt has four seasons but avoid going in the summer as it's brutal. Warm winters attract a lot of tourists. I recommend visiting Egypt between October and May.
+            First getting to Egypt,
+            The best time to visit is when the climate is nice, Egypt has four seasons but avoid going in the summer as its brutal, Warm winters attract a lot of tourists.
+            I recommend visiting Egypt between October and May.
             <br />
             <hr />
 
           </Typography>
           <Typography paragraph className='text' >
             <h5 style={{ textAlign: 'center' }}>3 Days Schedule in Cairo</h5>
-            <strong>Day One:</strong> visit the Pyramids and the Sphinx in the morning, You can go inside The Great Pyramid as well. Ride a camel, it's an amazing experience. Before sunset, you can go see the Nile River, The 2nd largest river in the world, Take a boat or "Faloka" they call it and enjoy the view of the sunset and downtown Cairo with a beautiful breeze. 
+            <strong>Day One:</strong> Visit the Pyramids and the Sphinx in the morning, You can go inside The Great Pyramid as well. Ride a camel, its an amazing experience.
+            Before Sunset You can go check the Nile River, The 2nd largest river in the world, Take a boat or "Faloka" they call it, and enjoy the view of the Sunset and downtown Cairo with a beautiful breeze.
             <hr />
             <img src={PyramidsPic} className='image-in-blog' alt='' />
             <hr />
-            <strong>Day Two:</strong> visit the Egyptian Museum in the morning, You'll learn more about ancient Egypt and how they started the first civilization on Earth and how modern in Medicine, Maths, Military, and more. Also, the full tomb of King Tut is in the museum, full of treasure and shiny items. From there, You are close to Old Cairo, where there are beautiful old Churches, Mosques, Temples, Roman old Castles. By Sunset, Visit Cairo Tower, where you can see Cairo from above and enjoy some dinner or a cup of Egyptian tea from one of the restaurants on the top of the Tower.
+            <strong>Day Two:</strong> Visit the Egyptian Museum in the morning, You'll learn more about ancient Egypt and how they started the first civilization on Earth and how modern in Medicine, Math, Military and more.
+            From there, You are not far away from Old Cairo, where there are beautiful old Churches, Mosques, Temples, Roman old Castles.
+            By Sunset, Visit Cairo Tower, where you can see Cairo from above and enjoy some dinner or a cup of Egyptian tea from one of the restaurants on the top of the Tower.
             <br />
             <hr />
             <img src={CairoTower} className='image-in-blog' alt='' />
             <hr />
-            <strong>Day Three:</strong> visit Saladin Citadel in the morning, You'll be impressed by the old decorations of the Mosques in that area and how that Citadel used to be the Fortress to defend Cairo against invaders, so much culture to learn and beautiful pictures you can take. After, Head to Khan El Khalili. Where all the handmade souvenirs, silver, gold, and clothes where you'll not find anywhere else in the World. If you have more time and you like shopping, don't miss City Stars, The biggest mall in The Middle East where there is a lot of brands and sales.
+            <strong>Day Three:</strong> Visit Saladin Citadel in the morning, You'll be impressed by the old decorations of the Mosques in that area and how that Citadel used to be the Fortress to defend Cairo against invadors, so many culture to learn and beautiful pictures you can take.
+            After, Head to Khan El Khalili. Where all the handmade souvenirs, silver, gold and cloths where you'll not find anywhere else in the World.
+            If you have more time and you like shopping, don't miss City Stars, The biggest mall in The middle East where there is a lot of brands and sales.
             <hr />
             <img src={Khan} className='image-in-blog' alt='' />
             <hr />
@@ -140,16 +188,14 @@ export default function Cairo() {
             Egypt has 4 seasons. <br />
             Use Uber for transportation.<br />
             Keep a light jacket on you all the time during spring. <br />
-            Don't show shiny things in crowded areas.  <br />
+            Don't show too much shiny things in crowded areas. <br />
             You'll need to check the weather before going to each City. <br />
             Egypt is very affordable and you'll need cash in some parts. <br />
-            Couchsurfing is important everywhere and very helpful in Egypt.  <br />
+            Couchsurfing is important everywhere, and very helpful in Egypt. <br />
             One of the biggest Malls in the world is called City Stars in Cairo. <br />
-            One Dollar = 17 Egyptian pounds, A good dinner for 2 in Egypt would vary from 1000 LE to 2000 LE in a medium class restaurant.<br />
+            One Dollar = 17 Egyptian pound, A good dinner for 2 in Egypt would vary from 1000 LE to 2000 LE in a medium class restaurant. <br />
           </Typography>
           <Typography>
-
-          
 
           </Typography>
         </CardContent>

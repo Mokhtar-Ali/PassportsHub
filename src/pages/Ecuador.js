@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import Quito from '../blogs/Quito';
 import Banos from '../blogs/Banos';
 import { Jumbotron } from 'reactstrap';
