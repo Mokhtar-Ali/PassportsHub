@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
+import { Link } from "react-router-dom";
 import '../style/navbar.css' 
 // import Link from 'react-router-dom'
 
@@ -12,11 +13,9 @@ export default function NavBar() {
             {/* <div className='space-1'></div> */}
                 {/* <div > */}
                     <ul className='toolbar_navigation-items' >
-                        <li ><a className='navbar-li' href='/' > PassportsHub </a></li>
-                        <li ><a className='navbar-li' href='/about'> About Me</a></li>
-                        {/* <li ><a className='navbar-li' href='/about' style={{'marginLeft':'100px'}}> FaceBook </a></li> */}
-                        {/* <li ><a className='navbar-li' href='https://www.instagram.com/passportshub/' target='_blank'> Instagram </a></li> */}
-                        
+                        <li ><Link className='navbar-li' to='/' > PassportsHub </Link></li>
+                        <li ><Link className='navbar-li' to='/about'> About</Link></li>
+                        <li ><Link className='navbar-li' to='/about'> Portfolio</Link></li>
                     </ul>
                 {/* </div> */}
                 {/* <div className='space-2'></div> */}

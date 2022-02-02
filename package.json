@@ -15,6 +15,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-share": "^4.2.0",
+    "react-social-icons": "^5.10.0",
     "reactstrap": "^8.4.1",
     "youtube-logo": "0.0.1"
   },
@@ -24,11 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "next dev",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "format": "prettier --write \"src/**/*.{js,jsx}\""
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -43,8 +40,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.8.0",
-    "eslint-config-prettier": "^8.3.0",
     "prettier": "^2.5.1"
   }
 }

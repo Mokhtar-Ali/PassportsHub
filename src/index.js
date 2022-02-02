@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 import NavBar from './components/Navbar';
 import About from './components/About';
+import Footer from './components/Footer';
 
 
 
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Route exact path="/" component={App} />
     <Route exact path="/about" component={About} />
     <Route exact path="/cities/:id" component={About} />
+    <Footer />
 
     {/* <Route exact path="/egypt" component={Egypt} />
     <Route exact path="/thailand" component={Thailand} />
